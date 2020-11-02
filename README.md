@@ -42,21 +42,21 @@ To explain above , we have the below outcomes, for Current(Refactored) Script an
 
 #### Stock Performance in Year **2017** & **Current** Execution Time (Refactored Script)
 
-![Year_2017_Current](Resources\VBA_Challenge_2017.png)
+![Year_2017_Current](https://github.com/kirtibhandari/stock-analysis/blob/main/Resources/VBA_Challenge_2017.png)
 
 
 #### Stock Performance in Year **2017** & **Previous** Execution Time (Original Script)
 
-![Year_2017_Previous](Resources\2017_Previous_Code_Execution_Times.png)
+![Year_2017_Previous](https://github.com/kirtibhandari/stock-analysis/blob/main/Resources/2017_Previous_Code_Execution_Times.png)
 
 #### Stock Performance in Year **2018** & **Current Execution** Time (Refactored Script)
 
-![Year_2018_Current](Resources\VBA_Challenge_2018.png)
+![Year_2018_Current](https://github.com/kirtibhandari/stock-analysis/blob/main/Resources/VBA_Challenge_2018.png)
 
 
 #### Stock Performance in Year **2018** & **Previous** Execution Time (Original Script)
 
-![Year_2018_Previous](Resources\2018_Previous_Code_Execution_Times.png)
+![Year_2018_Previous](https://github.com/kirtibhandari/stock-analysis/blob/main/Resources/2018_Previous_Code_Execution_Times.png)
 
 From above we cane see:
 ### A: Stock Performance in year 2017 and 2018
@@ -81,11 +81,11 @@ Below are the screenshots of code snippets, that were different in both the scri
 
 #### **Original Script Main Logic**
 
-![Original Script](Resources\Original_Script_Main_Logic.png)
+![Original Script](https://github.com/kirtibhandari/stock-analysis/blob/main/Resources/Original_Script_Main_Logic.png)
 
 #### **Refactored Script Main Logic**
 
-![Refactored Script](Resources\Refactored_Script.png)
+![Refactored Script](https://github.com/kirtibhandari/stock-analysis/blob/main/Resources/Refactored_Script.png)
 
 Both the scripts provide same results, but with different code, where refactored code used lesser resources and executed with lesser computation and processing times. Original script has a code that executes main logic 'For' loop 36156 times whereas the 'For' loop in Refactored script got executed only for 3011 times, which is significantly a saver.
 
@@ -124,6 +124,8 @@ DISADVANTAGES:
 * If it was not Steve's parents, and there is a client and service provider relationship where Steve is a stock investment software developer, he would have charged more for providing a software which works on refactored script because of its time consumption. Thus, end user or client of siftware might end up paying more where the functionality provided is same.
 
 
+Source used for better understanding:
+https://stackoverflow.com/questions/43983284/what-are-the-advantages-and-disadvantages-of-refactoring-code-smell-in-software
 
 
 
