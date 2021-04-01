@@ -1,6 +1,8 @@
- ### **Preface**
+ ### **Stock Data Analysis with Microsoft VBA**
 
-It describes briefly about Analysis done - with file 'VBA_Challenge.xlsm' having:
+To perform this analysis, we have:
+
+'Stock_Data.xlsm' which includes:
 
 * Datasets of Stocks for years 2017,2018
 * Output sheet 'All Stocks Analysis'
