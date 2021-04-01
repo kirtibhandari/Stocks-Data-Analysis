@@ -18,7 +18,7 @@ Client would like to invest in green energy stocks. They are specifically intere
 
 To do this analysis, we have the following as briefed below.
 
-There is a dataset for year 2017 and 2018, preseneted in the form of rows and columns in excel Worksheets named '2017' and '2018' in Workbook named 'VBA_Challenge'. In these worksheets, we have datewise trading information in the stock market for various stocks. These stocks here are represented under 'Ticker' column A of worksheets.Then we have different columns which provide Open Market Value of the Ticker under Column 'Open', Highest value of stock for the day under Column 'High', Lowest value of the stock for the day under'Low' column, Closing value of the stock for the day under 'Close' and so on, along with Total Volume traded on the date under 'Volume' column.
+There is a dataset for year 2017 and 2018, presented in the form of rows and columns in excel Worksheets named '2017' and '2018' in Workbook named 'Stock_Data'. In these worksheets, we have date-wise trading information in the stock market for various stocks. These stocks here are represented under 'Ticker' column A of worksheets.Then we have different columns which provide Open Market Value of the Ticker under Column 'Open', Highest value of stock for the day under Column 'High', Lowest value of the stock for the day under 'Low' column, Closing value of the stock for the day under 'Close' and so on, along with Total Volume traded on the date under 'Volume' column.
 
 ### Current Stage of Analysis:
 We already have a VBA script that helps us to analyze a dozen of stocks to find out 'Total Yearly Volume' of the stock and 'Yearly return'. We are able to choose, for which year, out of '2017' and '2018', we want to see these 2 values for, for all the tickers (stocks) in the available dataset, through action button 'Run analysis for all stocks" and 'Clear Worksheet' to clear our Analysis worksheet. 
@@ -42,21 +42,21 @@ To explain above , we have the below outcomes, for Current(Refactored) Script an
 
 #### Stock Performance in Year **2017** & **Current** Execution Time (Refactored Script)
 
-![Year_2017_Current](https://github.com/kirtibhandari/stock-analysis/blob/main/Resources/VBA_Challenge_2017.png)
+![Year_2017_Current](https://github.com/kirtibhandari/stock-analysis/blob/main/Resources/VBA_2017.png)
 
 
 #### Stock Performance in Year **2017** & **Previous** Execution Time (Original Script)
 
-![Year_2017_Previous](https://github.com/kirtibhandari/stock-analysis/blob/main/Resources/2017_Previous_Code_Execution_Times.png)
+![Year_2017_Previous](https://github.com/kirtibhandari/stock-analysis/blob/main/Resources/2017_Previous_Execution.png)
 
 #### Stock Performance in Year **2018** & **Current Execution** Time (Refactored Script)
 
-![Year_2018_Current](https://github.com/kirtibhandari/stock-analysis/blob/main/Resources/VBA_Challenge_2018.png)
+![Year_2018_Current](https://github.com/kirtibhandari/stock-analysis/blob/main/Resources/VBA_2018.png)
 
 
 #### Stock Performance in Year **2018** & **Previous** Execution Time (Original Script)
 
-![Year_2018_Previous](https://github.com/kirtibhandari/stock-analysis/blob/main/Resources/2018_Previous_Code_Execution_Times.png)
+![Year_2018_Previous](https://github.com/kirtibhandari/stock-analysis/blob/main/Resources/2018_Previous_Execution.png)
 
 From above we cane see:
 ### A: Stock Performance in year 2017 and 2018
@@ -77,7 +77,7 @@ DQ stock which client thought, because it was traded lot in year 2018, over year
 
 As we can clearly see from the above pictures, for execution times, that , our  Current('Refactored') script performed better than Previous('Original') script. The new execution times for year 2017 & 2018 are 0.1455078 seconds and 0.1416016 seconds respectively, definitely lesser than previous execution times of 0.8085938 seconds and 0.7617188 seconds for years 2017 and 2018 respectively.
 
-Below are the screenshots of code snippets, that were different in both the scripts, which played an important role in reduction of execution times, making Refactored script perform better than Original scipt.
+Below are the screenshots of code snippets, that were different in both the scripts, which played an important role in reduction of execution times, making Refactored script perform better than Original script.
 
 #### **Original Script Main Logic**
 
@@ -96,7 +96,7 @@ Both the scripts provide same results, but with different code, where refactored
 ADVANTAGES:
 * A refactored code helps in reducing execution times with faster computations.
 * Lesser computations and hence lesser resource utilization when code refactoring is done
-* Efficient logic through code refactoring is easy to understand and trace/connect in terms of nested conditions or control strutures, when less number of code lines.
+* Efficient logic through code refactoring is easy to understand and trace/connect in terms of nested conditions or control structures, when less number of code lines.
 * Also, a refactored understandable code is easy for bug fixes.
 * A refactored code is an opportunity to design a software well so that it can easily be integrated with future technological advancements.
 
@@ -119,9 +119,9 @@ ADVANTAGES:
 * It is easy to locate bugs in refactored script than in original due to its better code design in addition to being adaptive and maintainable.
 
 DISADVANTAGES:
-* We need to decide on what level of performance do we intend to acheive through code refactoring. Here, after spending hours of time to get all code running, to achieve the desired functionality seems lesser useful on current small data set. If the same logic works for entire stock market, we would better be able to justify code refactoring benefit if processing times reduced significantly yand not only just as a part of a second.
-* We have used more control structures in refactored script than original script. We used all initializations at almost one place, logic at one and printing at one place. This might not work when we would need temporary variables or ouputs that need to be presented in real time, not at the time when all results have been computed.
-* If it was not our client in this case, and there is a client and service provider relationship where Steve is a stock investment software developer, he would have charged more for providing a software which works on refactored script because of its time consumption. Thus, end user or client of siftware might end up paying more where the functionality provided is same.
+* We need to decide on what level of performance do we intend to achieve through code refactoring. Here, after spending hours of time to get all code running, to achieve the desired functionality seems lesser useful on current small data set. If the same logic works for entire stock market, we would better be able to justify code refactoring benefit if processing times reduced significantly and not only just as a part of a second.
+* We have used more control structures in refactored script than original script. We used all initializations at almost one place, logic at one and printing at one place. This might not work when we would need temporary variables or outputs that need to be presented in real time, not at the time when all results have been computed.
+* If it was not our client in this case, and there is a client and service provider relationship where client is a stock investment software developer, he would have charged more for providing a software which works on refactored script because of its time consumption. Thus, end user or client of software might end up paying more where the functionality provided is same.
 
 
 Source used for better understanding:
