@@ -1,35 +1,33 @@
  ### **Preface**
 
-Submitted for completion of Module-2- Challenge Deliverable 2 requirements.
-
-It describes briefly about Analysis done @ Deliverable 1 - with file 'VBA_Challenge.xlsm' having:
+It describes briefly about Analysis done - with file 'VBA_Challenge.xlsm' having:
 
 * Datasets of Stocks for years 2017,2018
 * Output sheet 'All Stocks Analysis'
-* VBA Script for Deliverable 1 under 'Module-4'
+* VBA Script 
 * Executed through action buttons 'Run Analysis for all Stocks' and 'Clear Worksheet'. 
 
-~ It also includes 'Resources' folder for Module-2 Challenge Requirements.
+~ It also includes 'Resources' folder for analysis requirements.
 
 # **Overview of Project**
 
 ## Background
-Steve's parents would like to invest in green energy stocks. They are specifically interested in DQ stocks. But an optimal analysis should be able to provide the seeker, which stocks look good to invest in, based upon analysis of given stocks over year 2017 and 2018. Also, we can deduce performance of DQ stock.
+Client would like to invest in green energy stocks. They are specifically interested in DQ stocks. But an optimal analysis should be able to provide the seeker, which stocks look good to invest in, based upon analysis of given stocks over year 2017 and 2018. Also, we can deduce performance of DQ stock.
 
 To do this analysis, we have the following as briefed below.
 
 There is a dataset for year 2017 and 2018, preseneted in the form of rows and columns in excel Worksheets named '2017' and '2018' in Workbook named 'VBA_Challenge'. In these worksheets, we have datewise trading information in the stock market for various stocks. These stocks here are represented under 'Ticker' column A of worksheets.Then we have different columns which provide Open Market Value of the Ticker under Column 'Open', Highest value of stock for the day under Column 'High', Lowest value of the stock for the day under'Low' column, Closing value of the stock for the day under 'Close' and so on, along with Total Volume traded on the date under 'Volume' column.
 
 ### Current Stage of Analysis:
-We already have a VBA script that helps us to analyze a dozen of stocks to find out 'Total Yearly Volume' of the stock and 'Yearly return'. We are able to choose, for which year, out of '2017' and '2018', we want to see these 2 values for, for all the tickers (stocks) in the available dataset, through action button 'Run analysis for all stocks" and 'Clear Worksheet' to clear our Analysis worksheet, prepared while working through the Module in the course. 
+We already have a VBA script that helps us to analyze a dozen of stocks to find out 'Total Yearly Volume' of the stock and 'Yearly return'. We are able to choose, for which year, out of '2017' and '2018', we want to see these 2 values for, for all the tickers (stocks) in the available dataset, through action button 'Run analysis for all stocks" and 'Clear Worksheet' to clear our Analysis worksheet. 
 
 ## Purpose of this Analysis:
-We have been asked  to refactor already provided starter (challenge_starter_code.vbs) VBA script which should enable us to perform better than the original script. Here we measure performance in terms of execution time. 
+We need to refactor already provided starter VBA script which should enable us to perform better than the original script. Here we measure performance in terms of execution time. 
 
 ### Expected Outcome:
 We should be able to present through comparison, between original and refactored script, which script performs better through 'Execution Times'. 
 
-Also, how the stocks performed over these two years. Thirdly, we should be able to prsent how refactored script is better than original script and what aspects are at disadvantageous side of this refactoring. 
+Also, how the stocks performed over these two years. Thirdly, we should be able to present how refactored script is better than original script and what aspects are at disadvantageous side of this refactoring. 
 
 ## Results:
 
@@ -71,7 +69,7 @@ Other stocks such as DQ, HASI, RUN, SEDG, TERP, VSLR were traded more in terms o
 
 Overall stock trading did well in 2017. 
 
-DQ stock which Steve's parents thought, because it was traded lot in year 2018, over year 2017 could be a good investment, is surely not a good idea as per this analysis. Though it was traded with very high difference in 'Volume' over year 2017 to year 2018 but it'r yearly return was a huge decline from 199% in 2017 to -62.6% in year 2018.
+DQ stock which client thought, because it was traded lot in year 2018, over year 2017 could be a good investment, is surely not a good idea as per this analysis. Though it was traded with very high difference in 'Volume' over year 2017 to year 2018 but it's yearly return was a huge decline from 199% in 2017 to -62.6% in year 2018.
 
 ### B: Execution times of Previous ('Original') script vs Current('Refactored') script
 
@@ -121,7 +119,7 @@ ADVANTAGES:
 DISADVANTAGES:
 * We need to decide on what level of performance do we intend to acheive through code refactoring. Here, after spending hours of time to get all code running, to achieve the desired functionality seems lesser useful on current small data set. If the same logic works for entire stock market, we would better be able to justify code refactoring benefit if processing times reduced significantly yand not only just as a part of a second.
 * We have used more control structures in refactored script than original script. We used all initializations at almost one place, logic at one and printing at one place. This might not work when we would need temporary variables or ouputs that need to be presented in real time, not at the time when all results have been computed.
-* If it was not Steve's parents, and there is a client and service provider relationship where Steve is a stock investment software developer, he would have charged more for providing a software which works on refactored script because of its time consumption. Thus, end user or client of siftware might end up paying more where the functionality provided is same.
+* If it was not our client in this case, and there is a client and service provider relationship where Steve is a stock investment software developer, he would have charged more for providing a software which works on refactored script because of its time consumption. Thus, end user or client of siftware might end up paying more where the functionality provided is same.
 
 
 Source used for better understanding:
